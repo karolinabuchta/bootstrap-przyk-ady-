@@ -5,15 +5,133 @@
 	<title>Document</title>
 	
 <!--	bootstrap -->
-	<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
 <!--	Custom style-->
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>Hello, world!</h1>
-	
+
+<nav class="navbar ">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nazwa firmy</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="menu-glowne">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Podmenu 1</a></li>
+            <li><a href="#">Podmenu 2</a></li>
+      </ul>
+     </li>
+     <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+<!--slider-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://cdn.wallpapersafari.com/92/84/Y0oiFU.jpg" alt="...">
+      <div class="carousel-caption">
+       <h2>Najlepszy w mieście</h2>
+       <a href="" class="btn btn-default btn btn-lg">Kup Pan stronę</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://cdn.wallpapersafari.com/92/84/Y0oiFU.jpg" alt="...">
+      <div class="carousel-caption">
+     <h2>Najlepszy w mieście</h2>
+       <a href="" class="btn btn-default btn btn-lg">Kup Pan stronę</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- div -->
+<div class="container blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus error quod tempora aut ipsa dignissimos, illum quibusdam repudiandae aliquid, minima nemo doloremque voluptatem, repellat debitis eos. Corrupti repudiandae iure labore.</div>
+
+<div class="container-fluid red text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tenetur corporis ratione voluptatibus veniam ad dolores, odit totam architecto unde ipsam reiciendis modi reprehenderit recusandae hic, voluptatum quisquam commodi. Nobis.</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-12 green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quibusdam optio adipisci magni temporibus, vitae, rem tempore animi excepturi harum, consequuntur recusandae repellendus error. Repellat officia quasi quis est molestiae.<a href="" class="btn btn-default btn-lg" >LINK</a></div>
+		<div class="col-lg-3 col-sm-4 purpule">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, dolorum quidem nisi consequuntur animi totam iusto enim, soluta perspiciatis nobis quibusdam ut ullam harum explicabo pariatur, praesentium doloribus amet nostrum.<a href="" class="btn btn-primary btn-sm">LINK</a></div>
+		<div class="col-lg-3 col-sm-4 green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium est explicabo, ipsam autem architecto sequi? Voluptatum nemo doloremque eius eum sapiente, ullam, corporis aspernatur reprehenderit ducimus soluta sit neque eveniet.<a href="" class="btn btn-warning">LINK</a></div>
+		<div class="col-lg-3 col-sm-4x purpule">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugiat dolore porro totam. In praesentium autem sequi quibusdam distinctio, a velit ullam repellendus illo. At laudantium voluptas vel eaque. Officiis!<a href="" class="btn btn-danger btn-xs">LINK</a></div>
+	</div>
+</div>
+
+
+<!--jQuery-->	
 <script src="js/jquery-3.2.0.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>		
+<!--bootstrap -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>	
+
 </body>
 </html>

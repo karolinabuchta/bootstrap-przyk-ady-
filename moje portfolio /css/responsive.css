@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+	#main-nav {
+		background-color: #fff;
+		
+	}
+	
+	#main-nav ul .menu-item a{
+		color: 1ac056;
+	}
+	
+	#main-nav ul .menu-item a:hover {
+		color: #291f1a
+	}
+
+	
+	/*about*/
+
+#about figure .about-img {
+	max-height: none;
+	width: 100%;
+	border: 10px solid #fff;
+	border-radius: none;
+}
+	.col-1-2 {
+		float: none;
+		width: 100%;
+		font-size: 16px;
+		text-align: center;
+		
+	}
+	
+
+
+/*About stop */
+	
+	#skill #icons figure{ 
+		width: 30%;
+		margin-top: 20px;
+	}
+	
+/*about stop*/	
+	
+/*postfolio start*/
+
+	
+
+
+	
+	h5{ text-align: center}
+
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	
+	/*skils start*/
+	#skill #icons figure{
+		width: 100%;
+	}
+	
+	
+/*
+	
+	#portfolio{
+		padding: 40px 0px;
+	}
+*/
+	
+	#contact,
+	#contact h5 {
+		text-align: center } 
+	/*skils stop*/
+	h5{ text-align: center}
+	/*posrtfolo start*/
+}

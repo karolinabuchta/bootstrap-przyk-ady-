@@ -1,0 +1,29 @@
+body {
+	min-height: 1500px;
+}
+
+div { 
+color: white;
+
+
+}
+
+.blue {
+	background-color: red;
+}
+
+.red {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.purpule {
+	background-color: purple;
+}
+
+.item {
+	min-height: 400px;
+}
